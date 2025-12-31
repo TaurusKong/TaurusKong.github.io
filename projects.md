@@ -6,7 +6,7 @@ permalink: /projects/
 
 {% assign projects = site.projects | sort: "date" | reverse %}
 
-以下为近期项目列表：
+这里展示了我参与开发的技术美术工具与 PCG 案例：
 
 <ul>
 {% for project in projects %}

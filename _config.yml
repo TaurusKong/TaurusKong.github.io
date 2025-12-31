@@ -1,23 +1,18 @@
 title: Taurus Kong
 email: your-email@example.com
 description: >-
-  Taurus Kong 的个人技术主页，记录项目、博客与学习笔记。
+  Taurus Kong 的技术美术主页，专注于游戏美术管线、Houdini PCG 与工具开发。
 baseurl: ""
 url: "https://tauruskong.github.io"
 lang: zh-CN
 timezone: Asia/Shanghai
 
-theme: minima
+theme: bay_jekyll_theme
 
 permalink: /blog/:title/
 
 author: Taurus Kong
 
-minima:
-  skin: classic
-  social_links:
-    - platform: github
-      user_url: https://github.com/TaurusKong
     - platform: linkedin
       user_url: https://www.linkedin.com/in/your-profile
     - platform: rss
