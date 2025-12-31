@@ -13,11 +13,18 @@ permalink: /blog/:title/
 
 author: Taurus Kong
 
-social_links:
-  - platform: linkedin
-    user_url: https://www.linkedin.com/in/your-profile
-  - platform: rss
-    user_url: https://tauruskong.github.io/feed.xml
+footer:
+  contact:
+    - type: email
+      value: your-email@example.com
+      cloak: false
+  follow:
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/your-profile
+      value: LinkedIn
+    - name: RSS
+      link: https://tauruskong.github.io/feed.xml
+      value: RSS
 
 plugins:
   - jekyll-feed

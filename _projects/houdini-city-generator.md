@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Houdini 城市生成器
 date: 2025-12-31
 summary: 基于 Houdini PDG 的程序化城市生成工具。

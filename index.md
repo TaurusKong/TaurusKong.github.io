@@ -26,4 +26,4 @@ subtitle: 探索技术与艺术的边界
 {% endfor %}
 </ul>
 
-更多内容请查看 [项目总览](projects.md)。
+更多内容请查看 [项目总览](/projects/)。
