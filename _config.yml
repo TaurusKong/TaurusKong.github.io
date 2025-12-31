@@ -1,3 +1,47 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Taurus Kong
+email: your-email@example.com
+description: >-
+  Taurus Kong 的个人技术主页，记录项目、博客与学习笔记。
+baseurl: ""
+url: "https://tauruskong.github.io"
+lang: zh-CN
+timezone: Asia/Shanghai
+
+theme: minima
+
+permalink: /blog/:title/
+
+author: Taurus Kong
+
+minima:
+  skin: classic
+  social_links:
+    - platform: github
+      user_url: https://github.com/TaurusKong
+    - platform: linkedin
+      user_url: https://www.linkedin.com/in/your-profile
+    - platform: rss
+      user_url: https://tauruskong.github.io/feed.xml
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+  - Gemfile.lock
+
+header_pages:
+  - about.md
+  - projects.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
